@@ -1,0 +1,22 @@
+{
+  "name": "11-cafeteria",
+  "version": "1.0.0",
+  "description": "SASS, Gulp, SCSS, CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LuisMarioSolano/cafeteria.git"
+  },
+  "author": "Luis Mario Solano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisMarioSolano/cafeteria/issues"
+  },
+  "homepage": "https://github.com/LuisMarioSolano/cafeteria#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
