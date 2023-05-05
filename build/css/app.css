@@ -362,6 +362,42 @@ h3 {
   font-size: 3.2rem;
 }
 
+h1, h2, h3 {
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 5rem 0;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  color: #5E311E;
+  display: flex;
+  flex-direction: column;
+}
+h2 span {
+  color: #C39C63;
+  font-size: 1.8rem;
+}
+h2::after {
+  content: "";
+  display: block;
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto;
+  background-image: url(../img/cafe.svg);
+  background-size: 10rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -465,7 +501,7 @@ h3 {
 
 .contenido-principal {
   background-color: #FFFFFF;
-  padding: 2rem;
+  padding: 5rem 2rem;
 }
 @media (min-width: 768px) {
   .contenido-principal {
