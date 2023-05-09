@@ -14,15 +14,15 @@
     <link rel="stylesheet" href="build/css/app.css" />
   </head>
   <body>
-    <header class="header header-inicio">
+    <header class="header header-nosotros">
       <div class="contenido-header contenedor">
         <div class="barra">
           <div class="logo">
             <img src="build/img/logo.svg" alt="logo" />
           </div>
           <nav class="nav-principal">
-            <a class="activo" href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
+            <a href="index.html">Inicio</a>
+            <a class="activo" href="nosotros.html">Nosotros</a>
             <a href="proceso.html">Proceso</a>
             <a href="menu.html">Menú</a>
             <a href="galeria.html">Galería</a>
@@ -30,13 +30,50 @@
           </nav>
         </div>
         <div class="texto-header">
-          <h1>Disfruta una deliciosa tasa de café</h1>
+          <h1>Una nueva experiencia cada día</h1>
         </div>
       </div>
     </header>
 
     <main class="contenedor contenido-principal">
+      <h2><span>Conoce más</span>Sobre nosotros</h2>
 
+      <div class="contenido-nosotros">
+        <div class="imagen">
+          <picture>
+            <source
+              srcset="build/img/nosotros_sidebar.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="build/img/nosotros_sidebar.webp"
+              type="image/webp"
+            />
+            <img
+              loading="lazy"
+              width="200"
+              height="300"
+              src="build/img/nosotros_sidebar.jpg"
+              alt="imagen nosotros"
+            />
+          </picture>
+        </div>
+        <div class="texto">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eaque
+            ducimus, iste libero incidunt totam adipisci culpa sed cupiditate
+            corrupti distinctio vel! Adipisci quis sint incidunt maxime minus
+            laboriosam nisi.
+          </p>
+          <blockquote>Excelente Sabor!</blockquote>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eaque
+            ducimus, iste libero incidunt totam adipisci culpa sed cupiditate
+            corrupti distinctio vel! Adipisci quis sint incidunt maxime minus
+            laboriosam nisi.
+          </p>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
@@ -55,7 +92,7 @@
           <h3>Horario</h3>
           <p>Lun-Jue: 11:00 - 22:00</p>
           <p>Vie-Sab: 09:00 - 24:00</p>
-          <p> Domingo: Cerrado</p>
+          <p>Domingo: Cerrado</p>
         </div>
       </div>
       <p class="copyright">Todos los derechos reservados. La Cafetería</p>
